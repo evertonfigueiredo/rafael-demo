@@ -1,0 +1,57 @@
+.cards{
+    width: 372px;
+    height: 194px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: solid #98B9AB;
+    padding-top: 10px;
+    border-radius: 5px;
+    border-color: #B3093F;
+}
+
+.cards H2 {
+    text-transform: uppercase;
+}
+
+
+.buttonCard , .buttons-home, a{
+    border-radius: 8px;
+    min-width: 200px;
+    margin: 0 auto;
+    background-color: #B3093F;
+    text-decoration: none;  
+}
+
+.buttonCard a {
+    color: white;
+}
+
+.title-experts-presentation{
+    text-transform: uppercase;
+}
+
+@keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .buttonCard,.cards,.card-img-overlay {
+    animation: slide-in 1s ease-in-out;
+  }
+
+  .buttonCard {
+    transition: transform 0.3s ease;
+  }
+  
+  .buttonCard:hover {
+    transform: scale(1.1);
+  }
+  
+  

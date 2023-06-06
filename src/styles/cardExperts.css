@@ -1,0 +1,16 @@
+.experts {
+    text-align: center;
+}
+
+.experts img{
+    width: 80%;
+}
+
+.cardExperts H2  {
+    text-transform: uppercase;
+    margin-left: 10px;    
+}
+
+.cardExperts p{
+    margin-left: 10px;
+}
